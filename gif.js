@@ -80,8 +80,8 @@ $(document).ready(function() {
         renderButton();
     });
 
-
-    $(".gifImage").on("click", function() {
+    // Since these images are added dynamically, listen on the document
+    $(document).on("click", ".gifImage", function() {
         var state = $(this).attr("data-state");
 
         if (state === "still") {
