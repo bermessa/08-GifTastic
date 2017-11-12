@@ -37,7 +37,7 @@ $(document).ready(function() {
                 image.attr("data-animated", animated);
                 image.addClass("gifImage");
 
-                gifDiv.prepend(image);
+                gifDiv.prepend(image).css("margin-bottom", "20px");
                 gifDiv.prepend(p2);
 
                 $(".gifDisplay").prepend(gifDiv);
