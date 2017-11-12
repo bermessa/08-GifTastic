@@ -1,0 +1,11 @@
+
+HTML:
+animalsButton div
+form div
+gifs div
+
+JS:
+Make an array of animals
+Loop over them to make buttons
+When clicked gets the giphy API and populate 10 gifs
+Need still/active gifs

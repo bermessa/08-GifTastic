@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="gif.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>GifTastic</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <div class="row">
+                <h1>GIPHY <img src="https://pbs.twimg.com/profile_images/699676239620083713/WCUM0RqH.jpg" alt="gif logo" width="100px" height="100"> Animal GIFs</h1>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body" id="firstBody">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="buttons"></div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="addAnimal">Add a GIF animal category</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="animal-input" placeholder="Search for...">
+                            <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" id="add-animal">Go!</button>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-body" id="secondBody">
+                <div class="gifDisplay"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="gif.js">
+    </script>
+</body>
+
+</html>
