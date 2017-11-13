@@ -44,7 +44,7 @@ $(document).ready(function() {
             }
 
 
-            var p1 = $("<p>").text("Click the image to animate the GIF!").css("text-align", "center").css("font-size", "20px").css("font-weight", "bold").css("color", "#e6e6e6");
+            var p1 = $("<p>").text("Click the image to animate the GIF!").css("font-size", "20px").css("font-weight", "bold").css("color", "#e6e6e6").css("text-align", "center");
 
             $(".gifDisplay").prepend(p1);
 
@@ -62,7 +62,7 @@ $(document).ready(function() {
             add.text("#" + animal[i]);
             $(".buttons").append(add);
         }
-
+        $("#animal-input").val(" ");
     }
 
 
@@ -75,7 +75,7 @@ $(document).ready(function() {
 
     $("#add-animal").on("click", function(event) {
         event.preventDefault();
-        var formAdd = $("#animal-input").val().trim();
+        var formAdd = $("#animal-input").val().trim().toLowerCase();
         animal.push(formAdd);
         renderButton();
     });
