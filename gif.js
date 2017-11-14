@@ -3,7 +3,7 @@ $(document).ready(function() {
     //GLOBAL VARIABLES
     //======================
 
-    var animal = ["butterfly", "cat", "dog", "hampster", "bird", "rabbit", "goldfish", "ferret", "turtle", "hedgehog", "goat", "monkey", "otter", "panda", "camel", "crab", "deer", "racoon", "shark", "unicorn", "owl", "panda", "penguin", "polar bear", "elephant", "frog"];
+    var animal = ["butterfly", "cat", "dog", "hampster", "bird", "rabbit", "goldfish", "ferret", "turtle", "hedgehog", "goat", "monkey", "otter", "panda", "camel", "crab", "deer", "racoon", "shark", "unicorn", "owl", "panda", "penguin", "polar bear", "elephant", "frog", "lion"];
 
 
     //FUNCTIONS
