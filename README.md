@@ -9,7 +9,7 @@ Working! Check out the prepopulated categorgies, or search for a new one
 ### Deployment
 [Via GitHub](https://bermessa.github.io/08-GifTastic/gif.html)
 <br>
-* Must click on image to activate animation (check out why in the code ;) ) 
+* Must click on image to activate animation (check out why in the code! Starting on line 32 in gif.js ) 
 <br><br>
 
 ### Tech/framework used
